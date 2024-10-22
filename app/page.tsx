@@ -10,6 +10,7 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import GoogleCalendar from "@/components/GoogleCalendar";
 
 const Home = () => {
   return (
@@ -18,10 +19,11 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
-        {/* <RecentProjects /> */}
-        {/* <Clients /> */}
-        {/* <Experience /> */}
-        {/* <Approach /> */}
+        <RecentProjects />
+        <Clients />
+        <Experience />
+        <Approach />
+        <GoogleCalendar />
         <Footer />
       </div>
     </main>
