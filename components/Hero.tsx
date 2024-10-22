@@ -23,7 +23,6 @@ const Hero = () => {
           className="h-screen w-full dark:bg-rust bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
          absolute top-0 left-0 flex items-center justify-center"
         >
-          {/* Radial gradient for the container to give a faded look */}
           <div
             className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-rust
            bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,rust)]"
