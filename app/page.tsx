@@ -16,14 +16,14 @@ const Home = () => {
   return (
     <main className="relative bg-rust flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
-        <FloatingNav navItems={navItems} />
+        {/* <FloatingNav navItems={navItems} /> */}
         <Hero />
         <Grid />
-        <RecentProjects />
-        <Clients />
-        <Experience />
-        <Approach />
-        <GoogleCalendar />
+        {/* <RecentProjects /> */}
+        {/* <Clients /> */}
+        {/* <Experience /> */}
+        {/* <Approach /> */}
+        {/* <GoogleCalendar /> */}
         <Footer />
       </div>
     </main>

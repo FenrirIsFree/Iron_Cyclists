@@ -6,7 +6,7 @@ import { FaLocationArrow } from 'react-icons/fa'
 
 const Hero = () => {
     return (
-      <div className="pb-20 pt-36">
+      <div className="pb-2 pt-20">
         <div>
           <Spotlight
             className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -42,16 +42,17 @@ const Hero = () => {
             />
   
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Hi! I&apos;m Steve, I ride for a better tomorrow.
+              {/* Hi! I&apos;m Steve, I ride for a better tomorrow. */}
+              Iron Cyclists is focused on spreading Awareness and Supporting the ALS Community through Cycling. The name is based on Lou Gehrig&apos;s nickname of the &quot;Iron Horse&quot; and his ability to play every game despoite injuries. This is a reminder that there is Never a Day Off in the Fight Against ALS. We hope to use this website as a one-stop shop to find out about ALS cycling events across the country and to share stories of the impact of these events.
             </p>
   
-            <a href="#about">
+            {/* <a href="#about">
               <MagicButton
                 title="Learn More"
                 icon={<FaLocationArrow />}
                 position="right"
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
