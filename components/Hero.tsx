@@ -31,7 +31,7 @@ const Hero = () => {
   
         <div className="flex justify-center relative my-20 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-            <h1 className="uppercase tracking-widest text-s text-center text-blue-100 max-w-80">
+            <h1 className="uppercase tracking-widest text-xl md:text-2xl lg:text-3xl text-center text-blue-100 max-w-80">
               Iron Cyclists
             </h1>
   
@@ -43,7 +43,7 @@ const Hero = () => {
   
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
               {/* Hi! I&apos;m Steve, I ride for a better tomorrow. */}
-              Iron Cyclists is focused on spreading Awareness and Supporting the ALS Community through Cycling. The name is based on Lou Gehrig&apos;s nickname of the &quot;Iron Horse&quot; and his ability to play every game despoite injuries. This is a reminder that there is Never a Day Off in the Fight Against ALS. We hope to use this website as a one-stop shop to find out about ALS cycling events across the country and to share stories of the impact of these events.
+              Iron Cyclists is focused on spreading Awareness and Supporting the ALS Community through Cycling. The name is based on Lou Gehrig&apos;s nickname of the &quot;Iron Horse&quot; and his ability to play every game despite injuries. This is a reminder that there is Never a Day Off in the Fight Against ALS. We hope to use this website as a one-stop shop to find out about ALS cycling events across the country and to share stories of the impact of these events.
             </p>
   
             {/* <a href="#about">
